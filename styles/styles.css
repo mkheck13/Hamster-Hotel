@@ -100,9 +100,28 @@ align-content: center;
     padding-right: 25vh;
 }
 
+.roomBack{
+    background-image: url(../assets/bg2.jpg);
+    padding-bottom: 50px;
+    
+}
+
 .roomHead{
     font: normal normal normal 35px/44px Dosis;
     text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.qkb{
+    font: normal normal normal 25px/32px Dosis;
+}
+.cardTxt{
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
+.rBtn{
+    border-radius: 0px;
 }
 
 
