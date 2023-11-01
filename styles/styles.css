@@ -123,5 +123,9 @@ align-content: center;
 .rBtn{
     border-radius: 0px;
 }
+.pckHead{
+    text-align: center;
+font: normal normal normal 35px/44px Dosis;
+}
 
 
