@@ -89,16 +89,20 @@ align-content: center;
 .hd2{
     font: normal normal normal 16px/20px Source Sans Pro;
 }
+
 .hamChair{
-    width: 100%;
-    height: 100%;
-    float: left;
+    padding-left: 20vh;
+
 }
 
 
 .hamCen{
-    text-align: left;
-    float: left;
+    padding-right: 25vh;
+}
+
+.roomHead{
+    font: normal normal normal 35px/44px Dosis;
+    text-align: center;
 }
 
 
