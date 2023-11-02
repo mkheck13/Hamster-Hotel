@@ -137,5 +137,31 @@ align-content: center;
 .pkt3{
     font: normal normal normal 16px/20px Source Sans Pro;
 }
+.amBack{
 
+    background-image: url(../assets/bg.jpg);
+    padding-bottom: 50px;
+}
+.amHead{
+    font: normal normal normal 35px/44px Dosis;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.amSubhead{
+    text-align: center;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.amTxt{
+    text-align: center;
+    font: normal normal bold 20px/25px Source Sans Pro;
+    color: #FFFFFF;
+}
+.amPad{
+    padding-left: 45px;
+    padding-right: 45px;
+}
 
