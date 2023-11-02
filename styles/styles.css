@@ -125,7 +125,17 @@ align-content: center;
 }
 .pckHead{
     text-align: center;
-font: normal normal normal 35px/44px Dosis;
+    font: normal normal normal 35px/44px Dosis;
+}
+.pkt1{
+    font: normal normal normal 25px/32px Dosis;
+}
+.pkt2{
+    font: normal normal normal 16px/20px Source Sans Pro;
+    color: #1F51A8;
+}
+.pkt3{
+    font: normal normal normal 16px/20px Source Sans Pro;
 }
 
 
