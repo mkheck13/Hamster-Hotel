@@ -66,12 +66,17 @@ align-content: center;
 
     width: 800px;
     height: 200px;
-    position: absolute;
-    top: 40%;
-    left: 22%;
-    margin: -50px 0 0 -50px;
+    /* position:static ; */
+    /* background-position: 50% 56%; */
+    /* top: 40%; */
+    /* left: 50%; */
+    /* margin: -50px 0 0 -50px; */
     opacity: 80%;
-    background-color: #000324;   
+    /* align-items: center;   */
+    background-color: #000324 ; 
+    /* width: auto;  */
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 .hero-text {
@@ -104,6 +109,12 @@ align-content: center;
     background-image: url(../assets/bg2.jpg);
     padding-bottom: 50px;
     
+}
+.cardPad{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .roomHead{
@@ -215,4 +226,18 @@ align-content: center;
     margin-top: 10px;
 }
 
+/* Tablet */
 
+@media (max-width: 768px ){
+    .amRes{
+        font: normal normal bold 10px Source Sans Pro;
+    }
+
+}
+
+@media (min-width: 769px ){
+    .amRes{
+        font: normal normal bold 20px/25px Source Sans Pro;
+    }
+
+}

@@ -18,42 +18,44 @@
 
 <body>
     <!-- Navbar Start -->
-    <ul class="nav navColor ">
+    <div class="flex-box">
+        <ul class="nav navColor ">
 
-        <li class="nav-item">
-            <a class="nav-link navText" href="#Overview">Overveiw</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link navText" href="#Rooms">Rooms</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link navText" href="#Packages">Packages</a>
-        </li>
-        <!-- nav Image start-->
-        <li class="nav-item">
-            <a class="navbar-brand" href="/">
-                <div class="logo-image">
-                    <img src="./assets/Logo.png" class="img-fluid">
-                </div>
-            </a>
-        </li>
-        <!-- nav Image end-->
-        <li class="nav-item">
-            <a class="nav-link navText" href="#Amenities">Amenities</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link navText" href="#Contact">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link navText" href="#Reserve">Reserve</a>
-        </li>
-    </ul>
+            <li class="nav-item">
+                <a class="nav-link navText" href="#Overview">Overveiw</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navText" href="#Rooms">Rooms</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navText" href="#Packages">Packages</a>
+            </li>
+            <!-- nav Image start-->
+            <li class="nav-item">
+                <a class="navbar-brand" href="/">
+                    <div class="logo-image">
+                        <img src="./assets/Logo.png" class="img-fluid">
+                    </div>
+                </a>
+            </li>
+            <!-- nav Image end-->
+            <li class="nav-item">
+                <a class="nav-link navText" href="#Amenities">Amenities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navText" href="#Contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navText" href="#Reserve">Reserve</a>
+            </li>
+        </ul>
+    </div>
     <!-- Navbar End -->
 
     <!-- header start -->
-    <div  class="hero-image">
-        <div class="hero-box"></div>
-        <div class="hero-text">
+    <div class="hero-image">
+        <div class="container-fluid hero-box"></div>
+        <div class="row hero-text">
             <h1 class="hd1">Run on the wheel of luxury</h1>
             <p class="hd2">Explore everything the beach has to offer in our relaxing resort.</p>
         </div>
@@ -100,34 +102,36 @@
             <h1 class="roomHead">Our Rooms</h1>
         </div>
         <div class="row">
-            <div class="col"></div>
-            <div class="col">
+            <!-- <div class="col"></div> -->
+            <div class="col cardPad">
                 <div class="card rounded-0" style="width: 18rem;">
                     <img src="./assets/room1.jpg" class="card-img-top rounded-0" alt="Queen Bed">
                     <div class="card-body">
                         <h5 class="card-title qkb">Queen Room</h5>
                         <p class="card-text cardTxt"><b>850 SQ FT room with city view</b></p>
                         <p class="card-text cardTxt">• One queen size bed <br>• Seed Bar, fireplace and large balcony
-                            <br>• Small kitchen with a refrigerator and stove</p>
+                            <br>• Small kitchen with a refrigerator and stove
+                        </p>
                         <br><br>
                         <a href="#" class="btn btn-primary rBtn">Reserve</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col cardPad">
                 <div class="card rounded-0" style="width: 18rem;">
                     <img src="./assets/room3.jpg" class="card-img-top rounded-0" alt="King Bed">
                     <div class="card-body">
                         <h5 class="card-title qkb">King Room</h5>
                         <p class="card-text cardTxt"><b>950 SQ FT room with beach view</b></p>
                         <p class="card-text cardTxt">• One king size bed <br>• Seed Bar, fireplace and large balcony
-                            <br>• Small kitchen with a refrigerator and stove.</p>
+                            <br>• Small kitchen with a refrigerator and stove.
+                        </p>
                         <br><br>
                         <a href="#" class="btn btn-primary rBtn">Reserve</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col cardPad">
                 <div class="card rounded-0" style="width: 18rem;">
                     <img src="./assets/room2.jpg" class="card-img-top rounded-0" alt="Beach side suite">
                     <div class="card-body">
@@ -141,7 +145,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col"></div>
+            <!-- <div class="col"></div> -->
         </div>
     </div>
     <!-- rooms end -->
@@ -216,22 +220,22 @@
             <div class="col-2 amPad">
                 <img class="img-fluid" src="./assets/24hour.png" width="150" alt="24 hour room service">
                 <br><br>
-                <p class="amTxt">24 Hour Room Service</p>
+                <p class="amTxt amRes">24 Hour Room Service</p>
             </div>
             <div class="col-2 amPad">
                 <img class="img-fluid" src="./assets/breakfast.png" width="150" alt="Complimentary breakfast">
                 <br><br>
-                <P class="amTxt">Complimentary Breakfast</P>
+                <P class="amTxt amRes">Complimentary Breakfast</P>
             </div>
             <div class="col-2 amPad ">
                 <img class="img-fluid" src="./assets/valet.png" width="90" alt="Valet parking">
                 <br><br>
-                <P class="amTxt padLeft">Valet Parking</P>
+                <P class="amTxt padLeft amRes">Valet Parking</P>
             </div>
             <div class="col-2 amPad">
                 <img class="img-fluid" src="./assets/pool.png" width="150" alt="Beachside pool">
                 <br><br>
-                <P class="amTxt">Beachside Pool</P>
+                <P class="amTxt amRes">Beachside Pool</P>
             </div>
             <div class="col"></div>
         </div>
